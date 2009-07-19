@@ -1,0 +1,14 @@
+okay so a snake is turning
+
+        ^
+        |
+    - - |
+
+is represented by
+
+    Left, Left, Up, Up, Up
+
+
+we go left to right
+
+    foldl (\acc y -> acc ++ [next_pos (last acc) y]) [(pos snake)] (tail turning)
