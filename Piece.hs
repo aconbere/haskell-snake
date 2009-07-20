@@ -30,6 +30,7 @@ renderPieceList piece =
     preservingMatrix $ do
         translate $ Vector3 (fst position) (snd position) 0
         renderShape (shape piece) (renderColor $ col piece)
+    where position = Grid.get $ pos piece
 
 renderPieces pieces =
     mapM_ renderPiece pieces

@@ -1,0 +1,7 @@
+building snake
+
+ghc --make Main.hs -o Snake
+
+dependencies
+
+* Hopengl
