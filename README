@@ -5,3 +5,9 @@ ghc --make Main.hs -o Snake
 dependencies
 
 * Hopengl
+
+TODO
+====
+
+* Add a cabal config for easy installation
+* Continue with performance inhancements through openGL
